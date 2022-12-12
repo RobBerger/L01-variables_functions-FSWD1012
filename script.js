@@ -72,10 +72,18 @@
 // var bday = "Happy Birthday!";
 // strLength(bday);
 
-function findFavorite(myString) {
-    var num = myString.indexOf("favorite");
-    console.log(num);
+// function findFavorite(myString) {
+//     var num = myString.indexOf("favorite");
+//     console.log(num);
+// }
+
+// var pizzaStr = "Pizza is my favorite food";
+// findFavorite(pizzaStr);
+
+function upperCase(myString) {
+    var upperString = myString.toUpperCase();
+    console.log(upperString);
 }
 
-var pizzaStr = "Pizza is my favorite food";
-findFavorite(pizzaStr);
+var sentence = "It is a wonderful day!";
+upperCase(sentence);
