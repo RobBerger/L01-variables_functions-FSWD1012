@@ -36,21 +36,80 @@
 // console.log(result);
 
 // define the function
-function sayHello(){
-    console.log("Hello!");
-}
+// function sayHello(){
+//     console.log("Hello!");
+// }
 
-// variable declared in global scope
-let yourName = "Bob";
+// // variable declared in global scope
+// let yourName = "Bob";
 
-function sayHi() {
-    console.log("Hi " + yourName)
-}
+// function sayHi() {
+//     console.log("Hi " + yourName)
+// }
 
-sayHi(); 
+// sayHi(); 
 
-function sayBye() {
-    console.log("bye " + yourName)
-}
+// function sayBye() {
+//     console.log("bye " + yourName)
+// }
 
-sayBye();
+// sayBye();
+
+// function numToString(num) {
+//     var str = num.toString();
+//     // str is now a string data type
+//     console.log(str);
+// }
+
+// let myNum = 25; // number data type
+// numToString(myNum);
+
+// function strLength(myString) {
+//     var num = myString.length;
+//     console.log(num);
+// }
+
+// var bday = "Happy Birthday!";
+// strLength(bday);
+
+// function findFavorite(myString) {
+//     var num = myString.indexOf("favorite");
+//     console.log(num);
+// }
+
+// var pizzaStr = "Pizza is my favorite food";
+// findFavorite(pizzaStr);
+
+// function upperCase(myString) {
+//     var upperString = myString.toUpperCase();
+//     console.log(upperString);
+// }
+
+// var sentence = "It is a wonderful day!";
+// upperCase(sentence);
+
+// function lowerCase(myString) {
+//     var lowerString = myString.toLowerCase();
+//     console.log(lowerString);
+// }
+
+// var sentence2 = "It is a WONDERFUL day!";
+// lowerCase(sentence2);
+
+// function splitSpaces(str) {
+//     var reslt = str.split(" ");
+//     console.log(reslt);
+// }
+
+// var myStr = "How are you doing today?";
+// splitSpaces(myStr);
+
+var a = "10";
+var b = "20"
+var c = a + b;
+console.log(c);
+
+var a = "10";
+var b = "20"
+var c = parseInt(a) + parseInt(b);
+console.log(c);
