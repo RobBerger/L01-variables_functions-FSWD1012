@@ -24,13 +24,21 @@
 // //calling the function
 // sayHello();
 
-// declare the function with two parameters
-function add(a, b) {
-    return a + b;
+// // declare the function with two parameters
+// function add(a, b) {
+//     return a + b;
+// }
+
+// // call the function with two arguments, and assign the returned value to a result variable
+// let result = add(2, 3);
+
+// // use the result variable
+// console.log(result);
+
+// define the function
+function sayHello(){
+    console.log("Hello!");
 }
 
-// call the function with two arguments, and assign the returned value to a result variable
-let result = add(2, 3);
-
-// use the result variable
-console.log(result);
+//calling the function
+sayHello();
