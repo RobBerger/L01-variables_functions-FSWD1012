@@ -15,3 +15,11 @@
 
 // const constant = "I am a constant variable!";
 // console.log(constant);
+
+// defining the function
+function sayHello() {
+    console.log("Hello!");
+}
+
+//calling the function
+sayHello(); 
