@@ -39,6 +39,3 @@
 function sayHello(){
     console.log("Hello!");
 }
-
-//calling the function
-sayHello();
