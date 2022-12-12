@@ -64,10 +64,18 @@
 // let myNum = 25; // number data type
 // numToString(myNum);
 
-function strLength(myString) {
-    var num = myString.length;
+// function strLength(myString) {
+//     var num = myString.length;
+//     console.log(num);
+// }
+
+// var bday = "Happy Birthday!";
+// strLength(bday);
+
+function findFavorite(myString) {
+    var num = myString.indexOf("favorite");
     console.log(num);
 }
 
-var bday = "Happy Birthday!";
-strLength(bday);
+var pizzaStr = "Pizza is my favorite food";
+findFavorite(pizzaStr);
