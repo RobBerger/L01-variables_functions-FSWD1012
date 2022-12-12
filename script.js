@@ -55,11 +55,19 @@
 
 // sayBye();
 
-function numToString(num) {
-    var str = num.toString();
-    // str is now a string data type
-    console.log(str);
+// function numToString(num) {
+//     var str = num.toString();
+//     // str is now a string data type
+//     console.log(str);
+// }
+
+// let myNum = 25; // number data type
+// numToString(myNum);
+
+function strLength(myString) {
+    var num = myString.length;
+    console.log(num);
 }
 
-let myNum = 25; // number data type
-numToString(myNum);
+var bday = "Happy Birthday!";
+strLength(bday);
