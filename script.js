@@ -88,10 +88,18 @@
 // var sentence = "It is a wonderful day!";
 // upperCase(sentence);
 
-function lowerCase(myString) {
-    var lowerString = myString.toLowerCase();
-    console.log(lowerString);
+// function lowerCase(myString) {
+//     var lowerString = myString.toLowerCase();
+//     console.log(lowerString);
+// }
+
+// var sentence2 = "It is a WONDERFUL day!";
+// lowerCase(sentence2);
+
+function splitSpaces(str) {
+    var reslt = str.split(" ");
+    console.log(reslt);
 }
 
-var sentence2 = "It is a WONDERFUL day!";
-lowerCase(sentence2);
+var myStr = "How are you doing today?";
+splitSpaces(myStr);
