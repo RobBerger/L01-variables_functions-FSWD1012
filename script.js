@@ -36,21 +36,30 @@
 // console.log(result);
 
 // define the function
-function sayHello(){
-    console.log("Hello!");
+// function sayHello(){
+//     console.log("Hello!");
+// }
+
+// // variable declared in global scope
+// let yourName = "Bob";
+
+// function sayHi() {
+//     console.log("Hi " + yourName)
+// }
+
+// sayHi(); 
+
+// function sayBye() {
+//     console.log("bye " + yourName)
+// }
+
+// sayBye();
+
+function numToString(num) {
+    var str = num.toString();
+    // str is now a string data type
+    console.log(str);
 }
 
-// variable declared in global scope
-let yourName = "Bob";
-
-function sayHi() {
-    console.log("Hi " + yourName)
-}
-
-sayHi(); 
-
-function sayBye() {
-    console.log("bye " + yourName)
-}
-
-sayBye();
+let myNum = 25; // number data type
+numToString(myNum);
