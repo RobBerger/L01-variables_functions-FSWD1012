@@ -80,10 +80,18 @@
 // var pizzaStr = "Pizza is my favorite food";
 // findFavorite(pizzaStr);
 
-function upperCase(myString) {
-    var upperString = myString.toUpperCase();
-    console.log(upperString);
+// function upperCase(myString) {
+//     var upperString = myString.toUpperCase();
+//     console.log(upperString);
+// }
+
+// var sentence = "It is a wonderful day!";
+// upperCase(sentence);
+
+function lowerCase(myString) {
+    var lowerString = myString.toLowerCase();
+    console.log(lowerString);
 }
 
-var sentence = "It is a wonderful day!";
-upperCase(sentence);
+var sentence2 = "It is a WONDERFUL day!";
+lowerCase(sentence2);
