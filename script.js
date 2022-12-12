@@ -9,9 +9,9 @@
 // let greeting = "Good Morning!";
 // console.log(greeting);
 
-let greeting = "Hello, human!";
-greeting = "Good Morning!";
-console.log(greeting);
+// let greeting = "Hello, human!";
+// greeting = "Good Morning!";
+// console.log(greeting);
 
-const constant = "I am a constant variable!";
-console.log(constant);
+// const constant = "I am a constant variable!";
+// console.log(constant);
