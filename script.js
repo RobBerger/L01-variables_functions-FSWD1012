@@ -15,3 +15,22 @@
 
 // const constant = "I am a constant variable!";
 // console.log(constant);
+
+// defining the function
+// function sayHello() {
+//     console.log("Hello!");
+// }
+
+// //calling the function
+// sayHello();
+
+// declare the function with two parameters
+function add(a, b) {
+    return a + b;
+}
+
+// call the function with two arguments, and assign the returned value to a result variable
+let result = add(2, 3);
+
+// use the result variable
+console.log(result);
