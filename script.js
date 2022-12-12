@@ -39,3 +39,18 @@
 function sayHello(){
     console.log("Hello!");
 }
+
+// variable declared in global scope
+let yourName = "Bob";
+
+function sayHi() {
+    console.log("Hi " + yourName)
+}
+
+sayHi(); 
+
+function sayBye() {
+    console.log("bye " + yourName)
+}
+
+sayBye();
