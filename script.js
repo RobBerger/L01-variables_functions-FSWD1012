@@ -96,10 +96,20 @@
 // var sentence2 = "It is a WONDERFUL day!";
 // lowerCase(sentence2);
 
-function splitSpaces(str) {
-    var reslt = str.split(" ");
-    console.log(reslt);
-}
+// function splitSpaces(str) {
+//     var reslt = str.split(" ");
+//     console.log(reslt);
+// }
 
-var myStr = "How are you doing today?";
-splitSpaces(myStr);
+// var myStr = "How are you doing today?";
+// splitSpaces(myStr);
+
+var a = "10";
+var b = "20"
+var c = a + b;
+console.log(c);
+
+var a = "10";
+var b = "20"
+var c = parseInt(a) + parseInt(b);
+console.log(c);
