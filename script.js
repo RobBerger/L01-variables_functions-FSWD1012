@@ -123,9 +123,14 @@ function wordSearcher(sentence, word){
 
     // split the sentence into individual words
     let wordsInSentence = sentence.split(" ");
+
+    // using the indexOf() method to find the matching index within the words array
+    let searchIndex = wordsInSentence.indexOf(word);
+
     console.log(word);
     console.log(sentence);
     console.log(wordsInSentence);
+    console.log(searchIndex);
 }
 
 wordSearcher("This IS A TESTER sEnTEnce", "tESter");
