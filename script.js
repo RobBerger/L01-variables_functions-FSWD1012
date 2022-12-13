@@ -115,5 +115,9 @@
 // console.log(c);
 
 function wordSearcher(sentence, word){
-
+    // convert the sentence to lower case
+    sentence = sentence.toLowerCase();
+    console.log(sentence);
 }
+
+wordSearcher("This is ThE Sentence");
