@@ -135,3 +135,9 @@ function wordSearcher(sentence, word){
          console.log("Word found at pos " + searchIndex);
      }
 }
+
+// Test Case 1
+wordSearcher("London is a great big city", "city");
+
+// Test Case 2
+wordSearcher("Life is like a box of chocolates", "water");
