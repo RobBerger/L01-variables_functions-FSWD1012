@@ -127,10 +127,11 @@ function wordSearcher(sentence, word){
     // using the indexOf() method to find the matching index within the words array
     let searchIndex = wordsInSentence.indexOf(word);
 
-    console.log(word);
-    console.log(sentence);
-    console.log(wordsInSentence);
-    console.log(searchIndex);
+    // check if a match was found
+    if (searchIndex < 0) {
+         console.log("Word was not found");
+     }
+     else {
+         console.log("Word found at pos " + searchIndex);
+     }
 }
-
-wordSearcher("This IS A TESTER sEnTEnce", "tESter");
