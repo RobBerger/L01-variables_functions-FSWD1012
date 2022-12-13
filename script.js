@@ -113,3 +113,7 @@
 // var b = "20"
 // var c = parseInt(a) + parseInt(b);
 // console.log(c);
+
+function wordSearcher(sentence, word){
+
+}
