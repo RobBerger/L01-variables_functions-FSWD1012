@@ -120,8 +120,12 @@ function wordSearcher(sentence, word){
     
     // convert the word to lower case
     word = word.toLowerCase();
+
+    // split the sentence into individual words
+    let wordsInSentence = sentence.split(" ");
     console.log(word);
     console.log(sentence);
+    console.log(wordsInSentence);
 }
 
 wordSearcher("This IS A TESTER sEnTEnce", "tESter");
